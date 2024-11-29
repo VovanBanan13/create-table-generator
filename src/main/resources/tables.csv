@@ -1,0 +1,5 @@
+corp;ActiveNotificationHistory;CreatorUserId;int
+corp;ActiveNotificationHistory;MaterialId;int
+corp;BorrowerPersons;BorrowerId;int
+corp;BorrowerPersons;CreatorUserId;int
+corp;BorrowerPersons;DeleteUserId;int
