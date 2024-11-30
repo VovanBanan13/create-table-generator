@@ -22,7 +22,7 @@ public class FileService {
 
 	public HashMap<String, String> readCsv()  {
 		HashMap<String, String> records = new HashMap<>();
-		try (BufferedReader br = new BufferedReader(new FileReader("/Users/banan/Developer/create-table-generator/src/main/resources/tables.csv"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/tables.csv"))) {
 			String line;
 			while ((line = br.readLine()) != null) {
 				String[] values = line.split(COMMA_DELIMITER);
